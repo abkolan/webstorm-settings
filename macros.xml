@@ -1,0 +1,15 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="singlequote-sql">
+      <action id="EditorLineEnd" />
+      <action id="EditorLineStart" />
+      <action id="EditorLineEnd" />
+      <action id="EditorLineStart" />
+      <typing text-keycode="222:0">'</typing>
+      <action id="EditorLineEnd" />
+      <typing text-keycode="32:0;222:0;32:0;61:1">&amp;#x20;'&amp;#x20;+</typing>
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+    </macro>
+  </component>
+</application>
