@@ -3,4 +3,24 @@
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="ARE_LINE_NUMBERS_SHOWN" value="true" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="ffeb95" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="ffeb95" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\brefactor\b.*">
+      <option name="FOREGROUND" value="ffeb95" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <filter name="TODOs">
+      <pattern index="0" />
+    </filter>
+    <filter name="REFACTOR">
+      <pattern index="2" />
+    </filter>
+  </component>
 </application>
