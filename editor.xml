@@ -4,16 +4,24 @@
     <option name="ARE_LINE_NUMBERS_SHOWN" value="true" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="ffeb95" />
+    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="0" />
+      <option name="BACKGROUND" value="b7a912" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="ffeb95" />
+    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="0" />
+      <option name="BACKGROUND" value="1db698" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\brefactor\b.*">
-      <option name="FOREGROUND" value="ffeb95" />
+    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\brefactor\b.*">
+      <option name="FOREGROUND" value="0" />
+      <option name="BACKGROUND" value="4347b7" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" case-sensitive="false" pattern="\boptimize\b.*">
+      <option name="FOREGROUND" value="0" />
+      <option name="BACKGROUND" value="57b710" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
     <filter name="TODOs">
@@ -21,6 +29,9 @@
     </filter>
     <filter name="REFACTOR">
       <pattern index="2" />
+    </filter>
+    <filter name="OPTIMIZE">
+      <pattern index="3" />
     </filter>
   </component>
 </application>
