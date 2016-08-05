@@ -1,4 +1,28 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="Macro.singlequote-sql">
     <keyboard-shortcut first-keystroke="shift ctrl alt space" />
   </action>
