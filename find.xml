@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'azure-utils'" />
-    <option name="defaultScopeName" value="Project 'azure-utils'" />
-    <option name="SEARCH_SCOPE" value="Project 'azure-utils'" />
+    <option name="customScope" value="Project 'xcoderservice'" />
+    <option name="defaultScopeName" value="Project 'xcoderservice'" />
+    <option name="SEARCH_SCOPE" value="Project 'xcoderservice'" />
   </component>
 </application>
