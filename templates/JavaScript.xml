@@ -1,3 +1,12 @@
 <templateSet group="JavaScript">
-  <template name="rnr" value="const newrelic = require('newrelic');" description="require newrelic" toReformat="true" toShortenFQNames="true" />
+  <template name="rnr" value="const newrelic = require('newrelic');$END$" description="require newrelic" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="error" value="newrelic.noticeError($END$);" description="new relic log error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
