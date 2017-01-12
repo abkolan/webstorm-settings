@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="Dockerfile" type="Native" />
       <mapping pattern="DockerfileBase" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="config" type="YAML" />
     </extensionMap>
   </component>
