@@ -1,25 +1,24 @@
 <application>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
-    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\btodo\b.*">
+    <pattern useCustomColors="true" pattern="\btodo\b.*">
       <option name="FOREGROUND" value="0" />
       <option name="BACKGROUND" value="b7a912" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\bfixme\b.*">
+    <pattern useCustomColors="true" pattern="\bfixme\b.*">
       <option name="FOREGROUND" value="0" />
       <option name="BACKGROUND" value="1db698" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\brefactor\b.*">
+    <pattern useCustomColors="true" pattern="\brefactor\b.*">
       <option name="FOREGROUND" value="0" />
       <option name="BACKGROUND" value="4347b7" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern icon="question" useCustomColors="true" case-sensitive="false" pattern="\boptimize\b.*">
+    <pattern icon="question" useCustomColors="true" pattern="\boptimize\b.*">
       <option name="FOREGROUND" value="0" />
       <option name="BACKGROUND" value="57b710" />
       <option name="FONT_TYPE" value="2" />
